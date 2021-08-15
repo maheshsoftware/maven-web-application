@@ -20,6 +20,6 @@ node(){
     }
     stage('EmailNotifiaction'){
         emailext body: '''This is from 
-MAHESWAR ''', subject: 'Build Success', to: 'mahesh91.me@gmial.com,gift2hyd@gmial.com'}
+MAHESWAR ''', subject: 'Build Success', to: 'mahesh91.me@gmial.com,gift2hyd@gmial.com'
     }
 }
