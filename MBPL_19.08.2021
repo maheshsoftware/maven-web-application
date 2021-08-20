@@ -1,4 +1,4 @@
-node(){
+node('slaves'){
     def MavenHome = tool name:"maven3.6.3"
     stage ('CheckoutCode'){
         git branch: 'development', credentialsId: 'Github', url: 'https://github.com/maheshsoftware/maven-web-application.git'
